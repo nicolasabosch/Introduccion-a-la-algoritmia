@@ -2,7 +2,7 @@
 cantDinero=int(input("Ingrese la cantidad de dinero\n"))
 
 billetes1000 = cantDinero//1000
-cantDinero%=1000
+cantDinero=cantDinero%1000
 
 billetes500 = cantDinero//500
 cantDinero%=500
